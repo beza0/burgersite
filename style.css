@@ -34,6 +34,20 @@ body{
     
 }
 
+section{
+    padding: 3.5rem 7%;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 2rem 3.75rem;
+    border-radius: 30rem;
+    font-size: 1.7rem;
+    color: whitesmoke;
+    background-color: var(--black-color);  
+}
+
 .header .a img{
     height: 1rem;
 }
@@ -73,4 +87,38 @@ body{
     margin-left: 2rem;
     background-color: transparent;
     
+}
+
+.home{
+    min-height: 100vh;
+    background: url(images/home.webp)no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -7.4rem;
+    display: flex;
+    align-items: center;
+}
+.home .content{
+    max-width: 60rem;
+}
+.home .content h3{
+    font-size: 6rem;
+    color: whitesmoke;
+}
+.home .content p{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #ccc;
+
+}
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+
+}
+.menu .box-container .box img{
+    width: 100%;
+    object-fit: cover;
 }
