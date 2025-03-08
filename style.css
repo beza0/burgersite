@@ -649,7 +649,8 @@ transform: scaleY(0);
 
 }
 @media(max-width:768px){
-#menu-btn{
+
+.header #menu-btn{
     display: inline-block;
 }
 
@@ -673,4 +674,12 @@ transform: scaleY(0);
     pad: 0.5rem;
     font-size: 2rem;
 }
+}
+@media(max-width:576px){
+    html{
+        font-size: 50%;
+    }
+    .header #menu-btn{
+        display: inline-block;
+    }
 }
